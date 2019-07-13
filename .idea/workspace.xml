@@ -44,32 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Utilities/generate_profile_image.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
               <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MarkovBot/parse_corpus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MarkovBot/markov.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding>
-                <element signature="e#37#53#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,11 +92,6 @@
             <path>
               <item name="twitter-bots" type="b2602c69:ProjectViewProjectNode" />
               <item name="twitter-bots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twitter-bots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitter-bots" type="462c0819:PsiDirectoryNode" />
-              <item name="MarkovBot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twitter-bots" type="b2602c69:ProjectViewProjectNode" />
@@ -173,6 +147,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -259,13 +234,6 @@
     <entry file="file://$PROJECT_DIR$/MarkovBot/bot_builder.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/generate_profile_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MarkovBot/parse_corpus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -283,6 +251,13 @@
           <folding>
             <element signature="e#37#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/generate_profile_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -9,20 +9,20 @@ import random
 # read in the corpus #
 ######################
 
-with open('modesto.txt') as file:
+with open('corpus1.txt') as file:
     text = file.read()
 
-with open('mcds.txt') as file:
+with open('mcdondalds.txt') as file:
     text2 = file.read()
 
 #######################
 # Generate the models #
 #######################
 
-sabatino1 = markovify.Text(text, state_size=2)
-sabatino_model = markovify.Text(text, state_size=3)
+model1 = markovify.Text(text, state_size=2)
+model2 = markovify.Text(text, state_size=3)
 mcds_model = markovify.Text(text2, state_size=2)
-sabatino2 = markovify.Text(text, state_size=2)
+model3 = markovify.Text(text, state_size=2)
 combo = markovify.combine([sabatino1, mcds_model], [30, 1])
 
 ################################
@@ -34,7 +34,7 @@ menu_items = ['McChicken','iced tea','burger']
 customer_verbs = ['ordered','orders']
 people = ['person','people']
 mcdonalds_actions = ['service']
-modesto_persons = ['Gallagher','Carson','Zagaris', 'Mike Zagaris','Harris','Fladager',"Pontillo's", 'Pontillo','Carson', 'Kristi Ah You', 'George', 'Jim Demartini','Fred Woods', 'Jim Trevena', 'Carmen Sabatino', 'Domanica', 'Brown', 'Birgit Cook','Birgit Fladager', 'Zumot','Gallagher','Mr. Forte', 'JOHN MAYNE', 'Frank Carson', 'Carson','Kenoyer','Fladager', 'Joe Lopez','Adam Lindgren', 'Lindgren', 'Pontillo','Roger Brown', 'Timothy Luke Schwartz', 'Doug Ridenhour' 'harris', 'fladagator']
+accounts = ['@account1', '@account2','@account3']
 
 #################
 # utility lists #
@@ -186,24 +186,28 @@ print(cleaner)
 print(no_people)
 print(sentences)
 
+###########
+# madlibs #
+############
+
 
 for word in wordlist1:
     if word in old_text:
-        new_text = str.replace(old_text, word, 'Republicans')
+        new_text = str.replace(old_text, word, 'lol1')
         print(new_text)
 
 
 for word in menu_items:
     if word in old_text:
-        new_text = str.replace(old_text, word, 'health care')
+        new_text = str.replace(old_text, word, 'lol2')
         print(new_text)
 
 for word in mcdonalds_actions:
     if word in old_text:
-        new_text = str.replace(old_text, word, 'legislating')
+        new_text = str.replace(old_text, word, 'lol3')
         print(new_text)
 
 for word in customer_verbs:
     if word in old_text:
-        new_text = str.replace(old_text, word, 'writing to my representative')
+        new_text = str.replace(old_text, word, 'lol4')
         print(new_text)

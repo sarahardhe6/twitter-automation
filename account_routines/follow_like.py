@@ -16,7 +16,7 @@ api_count = 0
 likes = 0
 follows = 0
 
-for tweet in tweepy.Cursor(api.search, q='LOL').items(200):
+for tweet in tweepy.Cursor(api.search, q='topic to follow').items(200):
     try:
         tweet.favorite()
         print('\t' + "Liked")

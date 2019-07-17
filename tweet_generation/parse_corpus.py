@@ -8,7 +8,7 @@ with open('mcds.txt') as file:
     for line in text:
         for word in line:
             if word in {'McDonalds','mcdonalds', 'mcds'}
-                newstring = str.replace(line, word, 'Republican')
+                newstring = str.replace(line, word, 'lol')
                 print(newstring)
 
 

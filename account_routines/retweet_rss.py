@@ -20,7 +20,7 @@ print(user.name)
 ####################
 
 def ReadRssAndTweet():
-    feed = feedparser.parse('https://www.google.com/alerts/feeds/04972117299862412355/8469625787646444303')
+    feed = feedparser.parse('https://www.google.com/alerts/feeds/<feed_id>')
     for item in feed["items"]:
         title = item["title"]
         link = item["link"]
